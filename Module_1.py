@@ -1,7 +1,14 @@
 # while loop
+name = ''
+while True:
+    print('Please type your name')
+    name = input()
+    if name == 'yourname':
+        break
+print('Thanks')
 
 spam = 0
-while spam<5:
+while spam < 5:
     print('There are ' + str(spam) + ' spam')
     spam = spam + 1
 
