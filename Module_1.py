@@ -1,3 +1,9 @@
+# for loop
+print('My name is')
+for i in range(5):
+    print('Jimmy Five Times ' + str(i))
+
+
 # while loop
 name = ''
 while True:
@@ -20,7 +26,7 @@ if name == 'Ronan':
     print('Hi ' + name + 'Finally you have a great name')
     print('done')
 else:
-    print(name + ' is a dumb name your name shoudl be Ronan')
+    print(name + ' is a dumb name your name - should be Ronan')
     name = input()
 
 
